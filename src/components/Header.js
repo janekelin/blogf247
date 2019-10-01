@@ -1,6 +1,6 @@
 import React from "react"
 
-import HeroBanner from "../components/HeroBanner"
+import HeroBanner from "./SectionWrapper"
 
 export default () => {
   //TO-DO: Replace placeholders
@@ -15,7 +15,7 @@ export default () => {
 
   return (
     <header>
-      <HeroBanner className="hero" content={contentPlaceholder} img={imgPlaceholder} />
+      <SectionWrapper className="hero" content={contentPlaceholder} img={imgPlaceholder} />
     </header>
   )
 }
