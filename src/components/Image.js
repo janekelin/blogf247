@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 //TO-DO: Rewrite as gatsby-image
 export default props => {
@@ -7,4 +7,4 @@ export default props => {
   return (
     <img className={className} src={`/images/${fileName}`} alt={description} />
   )
-}
+};
