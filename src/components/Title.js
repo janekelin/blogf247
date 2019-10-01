@@ -3,11 +3,11 @@ import React from "react";
 export default props => {
   const { className, content } = props;
 
-  const CustomTitleTag = `h1`;
-  if(className == 'blog--featured__title'){
+  let CustomTitleTag = `h1`;
+  if(className === 'blog--featured__title'){
     CustomTitleTag = `h2`;
   }
-  if(className == 'blog__title'){
+  if(className === 'blog__title'){
     CustomTitleTag = `h3`;
   }
 
