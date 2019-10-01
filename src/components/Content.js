@@ -5,6 +5,7 @@ import Title from "../components/Title";
 
 export default props => {
   const { className, content } = props;
+  
   const titleClassName = className + "__title";
   const taglineClassName = className + "__tagline";
 
