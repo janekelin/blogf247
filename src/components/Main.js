@@ -1,3 +1,11 @@
-import React from "react";
+import React from "react"
 
-export default () => <main>Main placeholder</main>;
+import FeaturedCollection from "../components/FeaturedCollection"
+
+export default () => {
+  return (
+    <main>
+      <FeaturedCollection />
+    </main>
+  )
+}
