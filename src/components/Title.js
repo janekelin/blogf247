@@ -4,10 +4,10 @@ export default props => {
   const { className, content } = props;
 
   const CustomTitleTag = `h1`;
-  if(className == 'title__blog--featured'){
+  if(className == 'blog--featured__title'){
     CustomTitleTag = `h2`;
   }
-  if(className == 'title__blog'){
+  if(className == 'blog__title'){
     CustomTitleTag = `h3`;
   }
 

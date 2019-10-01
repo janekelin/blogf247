@@ -5,8 +5,8 @@ import Title from "../components/Title";
 
 export default props => {
   const { className, content } = props;
-  const titleClassName = "title__" + className;
-  const taglineClassName = "tagline__" + className;
+  const titleClassName = className + "__title";
+  const taglineClassName = className + "__tagline";
 
   return (
     <section>
