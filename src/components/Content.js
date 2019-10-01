@@ -1,7 +1,7 @@
 import React from "react";
 
-import Tagline from "Tagline";
-import Title from "Title";
+import Tagline from "../components/Tagline";
+import Title from "../components/Title";
 
 export default props => {
   const { className, content } = props;
