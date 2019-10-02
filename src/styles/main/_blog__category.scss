@@ -1,0 +1,6 @@
+.blog__category {
+  @include set-typography($typography-meta);
+  color: $color-meta;
+  margin: 0;
+  margin-left: 5px;
+}

@@ -1,24 +1,10 @@
 .blog--featured__section {
+  display: flex;
+  flex-direction: column;
   position: relative;
-}
 
-//TEMPORARY
-.blog--featured__section:after {
-  content: "->";
-  right: 20px;
+  @media screen and (min-width:$breakpoint-tablet){
+    flex-direction: row;
+    justify-content: center;
+  }
 }
-
-.blog--featured__section:before {
-  content: "<-";
-  left: 20px;
-}
-
-.blog--featured__section:after,
-.blog--featured__section:before {
-  height: 20px;
-  top: 50%;
-  margin-top: 10px;
-  margin: auto;
-  position: absolute;
-} 
-//TEMPORARY END

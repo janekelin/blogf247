@@ -8,10 +8,10 @@ export default props => {
   const titleClassName = className + "__title";
 
   return (
-    <header>
+    <header className="blog__header">
       <Title className={titleClassName} content={content.title} />
-      <p>{content.created}</p>
-      <p>{content.category}</p>
+      <p className="blog__date">{content.created}</p>
+      <p className="blog__category">{content.category}</p>
     </header>
   )
 };

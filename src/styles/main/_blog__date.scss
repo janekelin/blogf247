@@ -1,0 +1,5 @@
+.blog__date {
+  @include set-typography($typography-meta);
+  color: $color-meta;
+  margin: 0;
+}

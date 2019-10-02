@@ -1,0 +1,5 @@
+.blog__length {
+  @include set-typography($typography-meta);
+  align-self: center;
+  margin: 0;
+}

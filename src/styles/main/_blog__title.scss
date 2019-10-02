@@ -1,0 +1,6 @@
+.blog__title {
+  @include set-typography($typography-headline3);
+  align-self: flex-end;
+  margin: 0;
+  width: 100%;
+}

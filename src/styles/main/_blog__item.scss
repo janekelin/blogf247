@@ -1,0 +1,15 @@
+.blog__item {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 5%;
+
+  @media screen and (min-width: $breakpoint-tablet) {
+    height: 45%;
+    margin-bottom: 1%;
+    width: 45%;
+  }
+}
+
+.blog__item:nth-child(n+3) {
+  order: 2;
+}

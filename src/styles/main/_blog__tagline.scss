@@ -1,0 +1,5 @@
+.blog__tagline {
+  @include set-typography($typography-preamble);
+  color: $color-blog-tagline;
+  margin: 0;
+}

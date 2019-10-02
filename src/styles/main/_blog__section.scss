@@ -1,0 +1,21 @@
+.blog__section {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  
+  @media screen and (min-width:$breakpoint-tablet){
+    flex-wrap: wrap;
+    height: 600px;
+  }
+}
+
+.blog__section:after {
+  @media screen and (min-width: $breakpoint-tablet) {
+    background-color: $color-divider;
+    content: "";
+    flex-basis: 100%;
+    margin: 10% 0;
+    order: 1;
+    width: 1px;
+  }
+}
