@@ -2,11 +2,12 @@
   font-family: map-get($selector, font-family);
   font-size: map-get($selector, font-size-mobile);
   font-weight: map-get($selector, font-weight);
-  letter-spacing: map-get($selector, letter-spacing);
+  letter-spacing: map-get($selector, letter-spacing-mobile);
   line-height: map-get($selector, line-height-mobile);
 
   @media screen and (min-width: $breakpoint-typography-desktop){
     font-size: map-get($selector, font-size-desktop);
+    letter-spacing: map-get($selector, letter-spacing-desktop);
     line-height: map-get($selector, line-height-desktop);
   }
 }

@@ -3,9 +3,17 @@
 
 @import 'variables';
 @import 'mixins';
+@import 'global';
 
 @import 'header/header';
 @import 'header/banner__image';
 @import 'header/banner__section';
 @import 'header/banner__title';
 @import 'header/banner__tagline';
+
+@import 'main/blog--featured__section';
+@import 'main/blog--featured__item';
+@import 'main/blog--featured__item__image';
+@import 'main/blog--featured__item__section';
+@import 'main/blog--featured__item__title';
+@import 'main/blog--featured__item__tagline';

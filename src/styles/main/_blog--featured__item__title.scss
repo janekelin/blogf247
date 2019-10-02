@@ -1,0 +1,5 @@
+.blog--featured__item__title {
+  @include set-typography($typography-headline2);
+  margin: 0;
+  text-transform: uppercase;
+}

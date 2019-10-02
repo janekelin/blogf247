@@ -1,10 +1,12 @@
 // ***COLOR PALETTE***
 
 //Custom colors
-$custom-blue--dark: #002a4e;
+$color-custom-blue--dark: #002a4e;
+$color-white: #fff;
 
 //Functional colors
-$color-primary: $custom-blue--dark;
+$color-primary: $color-custom-blue--dark;
+$color-decoration: $color-white;
 $color-text: $color-primary;
 
 // ***TYPOGRAPHY***
@@ -35,9 +37,21 @@ $typography-headline1: (
   font-size-desktop: 60px,
   font-size-mobile: 26px,
   font-weight: 700,
-  letter-spacing: .025em,
+  letter-spacing-mobile: .025em,
+  letter-spacing-desktop: .025em,
   line-height-desktop: 64px,
   line-height-mobile: 28px
+);
+
+$typography-headline2: (
+  font-family: $font-family-primary--bold, 
+  font-size-desktop: 34px,
+  font-size-mobile: 21px,
+  font-weight: 700,
+  letter-spacing-mobile: -0.015em,
+  letter-spacing-desktop: .015em,
+  line-height-desktop: 34px,
+  line-height-mobile: 24px
 );
 
 $typography-preamble: (
@@ -51,3 +65,8 @@ $typography-preamble: (
 
 // ***MEDIA QUERIES***
 $breakpoint-typography-desktop: 600px;
+
+// ***Z-INDEX***
+$z-blog-featured-item-image: 100;
+$z-blog-featured-item-decoration: 101;
+$z-blog-featured-item-section: 102;

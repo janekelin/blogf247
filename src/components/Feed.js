@@ -4,10 +4,13 @@ import BlogPost from "../components/BlogPost";
 
 export default props => {
   const { posts } = props;
-  const latestPosts = posts.map(item => <BlogPost key={item.id} post={item} />);
+
+  const className = "blog";
+  const sectionClassName = className + "__section";
+  const latestPosts = posts.map(item => <BlogPost key={item.id} className={className} post={item} />);
 
   return (
-    <section>
+    <section className={sectionClassName} >
       {latestPosts}
     </section>
   );

@@ -1,0 +1,27 @@
+//TEMPORARY!!!
+.blog--featured__item:nth-child(2),
+.blog--featured__item:nth-child(3) {
+  display: none;
+}
+//TEMPORARY END
+
+.blog--featured__item {
+  align-items: center;
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  position: relative;
+  width: 100vw;
+}
+
+.blog--featured__item:after {
+  background-color: $color-decoration;
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: .7;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: $z-blog-featured-item-decoration;
+}

@@ -1,0 +1,4 @@
+.blog--featured__item__tagline {
+  @include set-typography($typography-preamble);
+  margin: 0;
+}

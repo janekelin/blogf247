@@ -5,9 +5,8 @@ import BlogHeading from "../components/BlogHeading";
 import BlogLead from "../components/BlogLead";
 
 export default props => {
-  const { post } = props;
+  const { className, post } = props;
 
-  const className = "blog";
   const articleClassName = className + "__item";
   const headingContent = {
     title: post.content.title,
