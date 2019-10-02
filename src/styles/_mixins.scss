@@ -1,0 +1,12 @@
+@mixin set-typography($selector: null){
+  font-family: map-get($selector, font-family);
+  font-size: map-get($selector, font-size-mobile);
+  font-weight: map-get($selector, font-weight);
+  letter-spacing: map-get($selector, letter-spacing);
+  line-height: map-get($selector, line-height-mobile);
+
+  @media screen and (min-width: $breakpoint-typography-desktop){
+    font-size: map-get($selector, font-size-desktop);
+    line-height: map-get($selector, line-height-desktop);
+  }
+}

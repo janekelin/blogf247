@@ -1,2 +1,11 @@
 @import 'external/normalize';
 @import 'external/boilerplate';
+
+@import 'variables';
+@import 'mixins';
+
+@import 'header/header';
+@import 'header/banner__image';
+@import 'header/banner__section';
+@import 'header/banner__title';
+@import 'header/banner__tagline';

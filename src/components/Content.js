@@ -8,9 +8,10 @@ export default props => {
   
   const titleClassName = className + "__title";
   const taglineClassName = className + "__tagline";
+  const sectionClassName = className + "__section";
 
   return (
-    <section>
+    <section className={sectionClassName} >
       <Title className={titleClassName} content={content.title} />
       <Tagline className={taglineClassName} content={content.tagline} />
     </section>

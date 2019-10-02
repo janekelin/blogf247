@@ -15,7 +15,7 @@ export default () => {
 
   return (
     <header>
-      <SectionWrapper className="hero" content={contentPlaceholder} img={imgPlaceholder} />
+      <SectionWrapper className="banner" content={contentPlaceholder} img={imgPlaceholder} />
     </header>
   );
 };

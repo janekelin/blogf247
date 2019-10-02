@@ -1,0 +1,4 @@
+.banner__tagline {
+  @include set-typography($typography-preamble);
+  margin: 0;
+}
