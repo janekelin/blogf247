@@ -9,8 +9,8 @@ export default () => {
     {
       id: "001",
       content: {
-        title: "Title 1",
-        tagline: "Tagline 1",
+        title: "Featured blogginlägg",
+        tagline: "At Fitness24Seven everything counts",
       },
       img: {
         fileName: "1.jpg",
@@ -25,7 +25,7 @@ export default () => {
     {
       id: "002",
       content: {
-        title: "Title 2",
+        title: "Featured blogginlägg",
         tagline: "Tagline 2",
       },
       img: {
@@ -41,8 +41,8 @@ export default () => {
     {
       id: "003",
       content: {
-        title: "Title 3",
-        tagline: "Tagline 3",
+        title: "Featured blogginlägg",
+        tagline: "At Fitness24Seven everything counts",
       },
       img: {
         fileName: "5.jpg",
@@ -58,7 +58,7 @@ export default () => {
       id: "004",
       content: {
         title: "Title 4",
-        tagline: "Tagline 4",
+        tagline: "Lorem ipsum dolor sit amet.",
       },
       img: {
         fileName: "3.jpg",
@@ -74,7 +74,7 @@ export default () => {
       id: "005",
       content: {
         title: "Title 5",
-        tagline: "Tagline 5",
+        tagline: "Lorem ipsum dolor sit amet.",
       },
       img: {
         fileName: "4.jpg",
@@ -90,7 +90,7 @@ export default () => {
       id: "006",
       content: {
         title: "Title 6",
-        tagline: "Tagline 6",
+        tagline: "Lorem ipsum dolor sit amet.",
       },
       img: {
         fileName: "1.jpg",
@@ -106,7 +106,7 @@ export default () => {
       id: "007",
       content: {
         title: "Title 7",
-        tagline: "Tagline 7",
+        tagline: "Lorem ipsum dolor sit amet.",
       },
       img: {
         fileName: "2.jpg",

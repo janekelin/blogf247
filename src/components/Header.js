@@ -5,8 +5,8 @@ import SectionWrapper from "../components/SectionWrapper";
 export default () => {
   //TO-DO: Replace placeholders
   const contentPlaceholder = {
-    title: "Title",
-    tagline: "Tagline",
+    title: "Min Stora Blogg Titel",
+    tagline: "At Fitness24Seven everything counts, even if you don't want to train everyday. Start your journey from blue to black membership today. Text about new goal!",
   };
   const imgPlaceholder = {
     fileName: "1.jpg",

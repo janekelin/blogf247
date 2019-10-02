@@ -13,3 +13,11 @@ a {
     border-bottom: solid 1px currentColor;
   }
 }
+
+p {
+  max-width: 20ch;
+
+  @media screen and (min-width: $breakpoint-typography-desktop) {
+    max-width: 50ch;
+  }
+}
