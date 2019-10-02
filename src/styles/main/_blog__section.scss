@@ -1,11 +1,12 @@
 .blog__section {
   display: flex;
   flex-direction: column;
-  padding: 5%;
+  padding: 3%;
   
   @media screen and (min-width:$breakpoint-tablet){
     flex-wrap: wrap;
     height: 600px;
+    align-items: center;
   }
 }
 

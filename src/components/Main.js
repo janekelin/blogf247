@@ -45,7 +45,7 @@ export default () => {
         tagline: "Tagline 3",
       },
       img: {
-        fileName: "3.jpg",
+        fileName: "5.jpg",
         description: "alt 3",
       },
       meta: {
@@ -61,7 +61,7 @@ export default () => {
         tagline: "Tagline 4",
       },
       img: {
-        fileName: "4.jpg",
+        fileName: "3.jpg",
         description: "alt 4",
       },
       meta: {
@@ -77,7 +77,7 @@ export default () => {
         tagline: "Tagline 5",
       },
       img: {
-        fileName: "5.jpg",
+        fileName: "4.jpg",
         description: "alt 5",
       },
       meta: {

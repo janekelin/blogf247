@@ -1,0 +1,35 @@
+footer {
+  background-color: $color-bg-footer;
+  color: $color-text-footer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+
+  @media screen and (min-width: $breakpoint-tablet) {
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+
+    li {
+      margin: 20px;
+    }
+  }
+
+  img[src*="icon"]:not([src*="twitter"]){
+    filter: invert(1);
+  }
+
+  img[src*="twitter"],
+  img[src*="flag"] {
+    height: 32px;
+    width: 32px;
+  }
+}

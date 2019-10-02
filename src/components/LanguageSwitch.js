@@ -10,13 +10,13 @@ export default () => {
   const languageLinks = [
     {
       id: "001",
-      bgImg: "images/f24s_icon_arrow-anglar",
+      bgImg: "/images/flag-sv.svg",
       textForScreenReaders: "Read our website in Swedish",
       url: "/",
     },
     {
       id: "002",
-      bgImg: "images/f24s_icon_arrow-angular",
+      bgImg: "/images/flag-en.svg",
       textForScreenReaders: "Read our website in English",
       url: "/",
     }
