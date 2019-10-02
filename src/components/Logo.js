@@ -9,10 +9,15 @@ export default () => {
   const bgImg = "/images/logo-navy.svg";
   const textForScreenReaders = "Visit main page";
   const url = "https://se.fitness24seven.com/";
+  const value = {
+    bgImg: bgImg,
+    textForScreenReaders: textForScreenReaders,
+    url: url,
+  };
 
   return (
     <section>
-      <ExternalLink className={className} bgImg={bgImg} textForScreenReaders={textForScreenReaders} url={url} />
+      <ExternalLink className={className} value={value} />
     </section>
   )
 };

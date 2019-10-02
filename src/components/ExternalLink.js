@@ -1,7 +1,7 @@
 import React from "react";
 
 export default props => {
-  const { bgImg, className, textForScreenReaders, url } = props;
+  const { bgImg, className, textForScreenReaders, url } = props.value;
 
   return (
     <a href={url} className={className} style={{ backgroundImage: `url(${bgImg})` }}>
