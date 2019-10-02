@@ -8,10 +8,11 @@ export default () => {
   //TO-DO: Replace placeholders
   const bgImg = "/images/logo-navy.svg";
   const textForScreenReaders = "Visit main page";
+  const url = "https://se.fitness24seven.com/";
 
   return (
     <section>
-      <ExternalLink className={className} bgImg={bgImg} textForScreenReaders={textForScreenReaders} />
+      <ExternalLink className={className} bgImg={bgImg} textForScreenReaders={textForScreenReaders} url={url} />
     </section>
   )
 };
