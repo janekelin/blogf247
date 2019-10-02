@@ -1,3 +1,15 @@
 body {
   color: $color-text;
 }
+
+a {
+
+  &:hover,
+  &:focus {
+    opacity: .5;
+  }
+
+  &:active {
+    border-bottom: solid 1px currentColor;
+  }
+}
