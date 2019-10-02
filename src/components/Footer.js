@@ -1,3 +1,11 @@
-import React from "react";
+import React from "react"
 
-export default () => <footer>Footer placeholder!</footer>;
+import Logo from "../components/Logo"
+
+export default () => {
+  return (
+    <footer>
+      <Logo />
+    </footer>
+  )
+}
